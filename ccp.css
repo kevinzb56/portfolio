@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff; /* Changed text color for better contrast */
+    font-family: Arial, sans-serif; /* Added a fallback font */
+}
+
+.top {
+    font-size: 12px; /* Increased font size for better readability */
+    background-color: #444; /* Darkened the background color */
+    border-bottom: 2px solid #000; /* Increased border thickness */
+    margin: 0;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px; /* Increased font size for better readability */
+    background-color: #FFFFFF;
+}
+
+.webdevimg {
+    height: 275px; /* Increased image size */
+    width: 275px; /* Increased image size */
+    border-radius: 10px; /* Rounded corners more */
+    border: 2px solid #ffd700; /* Gold border */
+    background-color: #222; /* Darkened the background color */
+    margin-left: 20px; /* Adjusted margin */
+}
+
+#intro2 {
+    font-size: 15px; /* Increased font size for better readability */
+}
+
+.content {
+    padding: 20px; /* Consolidated padding */
+}
+
+.content h6 {
+    margin-bottom: 12px; /* Increased margin */
+    padding-top: 8px; /* Adjusted padding */
+    color: #00bfff; /* Changed color to a lighter blue */
+}
+
+.content p {
+    margin-top: 12px; /* Increased margin */
+}
+
+.content h1 {
+    margin-top: 0;
+    margin-bottom: 10px; /* Adjusted margin */
+    color: #ff6347; /* Changed color to a lighter red */
+}
+
+.cv h1,
+.cv h2,
+.other h1,
+.other h2 {
+    color: #ff8c00; /* Changed to a darker orange */
+    font-size: 28px; /* Increased font size for better readability */
+    text-decoration: underline;
+    margin-left: 20px; /* Adjusted margin */
+}
+
+.cv p,
+.cv ul,
+.other ul {
+    color: #000000; /* Changed to gold */
+    font-size: 20px; /* Increased font size for better readability */
+    margin-left: 20px; /* Adjusted margin */
+}
+
+.footer {
+    color: #fff;
+    font-size: 12px; /* Increased font size for better readability */
+    padding: 15px 0; /* Consolidated padding */
+    text-align: center;
+}
